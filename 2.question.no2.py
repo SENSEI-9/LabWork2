@@ -8,6 +8,7 @@ Programming=float(input('Enter the marks of programming :'))
 Architecture=float(input('Enter the marks of architecture :'))
 Maths=float(input('Enter the marks of Maths :'))
 English=float(input('Enter the marks of English :'))
+
 Total_Marks=Programming+Architecture+Maths+English
 print(f'your total marks obtained is {Total_Marks}')
 Percentage=Total_Marks/4
