@@ -5,6 +5,7 @@ they need to put down 10% otherwise
 they need to put down 20%.
 Print the down payment
 '''
+
 price_of_the_house=1000000
 credit=input('Do you need good credit(yes or no):')
 if credit=="yes":
