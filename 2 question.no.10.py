@@ -2,6 +2,6 @@
 
 number=int(input('Enter a number : '))
 if number%2==0:
-    print('it is even no')
+    print(f'{number} is an even number.')
 else:
-    print('it is odd no')
+    print(f'{number} is a odd number.')
