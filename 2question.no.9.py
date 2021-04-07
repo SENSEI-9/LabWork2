@@ -19,7 +19,7 @@ while True:
     command=input('>').lower()
     if command=="start":
         if started:
-            print("car is already started !!")
+            print("Car is already started !!")
         else:
             started= True
             print("Car started !!...")
@@ -37,3 +37,5 @@ quit- to exit
       ''')
     elif command =="quit":
         break
+    else:
+        print("Sorry, I don't understand that !!")
